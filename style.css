@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  background-color: rgb(210, 210, 210);
+  color: rgb(5, 5, 5);
+  text-align: center;
+  padding: 14px;
+}
+header nav ul li{
+  display: inline;
+  margin-left: 40px;
+}
+.first{
+background-color: rgb(244, 244, 244);
+text-align: center;
+font-size: 23px;
+justify-content: center;
+height:auto;
+  max-width: 100%;
+}
+a{
+  color: rgb(0, 63, 221);
+  text-decoration: none;
+  
+}
+.first a, .second a, .third a, .box1 a,.box2 a{
+  border: 2px solid rgb(45, 104, 207);
+  color: blue;
+  border-radius: 30px;
+  padding: 8px;
+  text-align: center;
+  margin: 10px;
+  text-decoration: none;
+  
+}
+.second{
+background-color: rgb(244, 244, 244);
+text-align: center;
+font-size: 23px;
+justify-content: center;
+padding: 50px;
+margin-top: 15px;
+height:auto;
+  max-width: 100%;
+}
+
+
+
+nav p{
+background-color: rgb(225, 227, 229);
+}
+a:hover{
+background-color:rgb(9, 126, 243);
+color:white;
+
+}
+.laptop{
+  height:auto;
+  max-width: 100%;
+}
+nav{
+  text-align: center;
+}
+.third{
+  background-color: black;
+text-align: center;
+font-size: 23px;
+justify-content: center;
+padding: 50px;
+margin-top: 15px;
+color: white;
+border-radius: 30px;
+height:auto;
+  max-width: 100%;
+
+}
+.box1{
+  background-color: black;
+  text-align: center;
+  font-size: 23px;
+  justify-content: center;
+  padding: 50px;
+  margin-top: 15px;
+  color: white;
+  width: 49%;
+  height:850px;
+  margin: 6px;
+}
+.box2{
+  background-color: rgba(240, 240, 240, 0.743);
+  text-align: center;
+  font-size: 23px;
+  justify-content: center;
+  padding: 50px;
+  margin-top: 15px;
+  color: rgb(1, 1, 1);
+  
+  width:49%;
+  height:850px;
+  margin: 6px;
+}
+.size{
+  height:auto;
+  max-width: 100%;
+}
+.fourth{
+  display: flex;
+  margin: 15px;
+  height:auto;
+  max-width: 100%;
+}
+.slider-wrapper{
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+}
+.slider{
+  display: flex;
+  position: relative;
+  transition: left 2s;
+  -webkit-transition:left 2s ;
+  -moz-transition:left 2s ;
+  -o-transition: left 2s;
+}
+.slider image{
+  float: left;
+  margin: 0px;
+  padding: 0px;
+
+}
+.container{
+  width: 800px;
+  height:600px;
+}
+.button-container{
+  top:-20px;
+  position :relative;
+}
+.slider-button{
+  display:inline-block ;
+  background-color: azure;
+  height: 1opx;
+  width: 10px;
+  border-radius: 5px;
+}
+#slider-image-1:target ~ .image-container{
+  left: 0px;
+}
+#slider-image-2:target ~ .image-container{
+  left:-800px;
+}
+  
